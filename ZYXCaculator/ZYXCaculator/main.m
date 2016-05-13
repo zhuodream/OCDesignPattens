@@ -6,6 +6,11 @@
 //  Copyright © 2016年 卓酉鑫. All rights reserved.
 //
 
+/*
+ 简单工厂模式
+ 策略模式
+ 代码复用
+ */
 #import <Foundation/Foundation.h>
 #import "ZYXCalculateOperation.h"
 #import "ZYXOperationFactory.h"
