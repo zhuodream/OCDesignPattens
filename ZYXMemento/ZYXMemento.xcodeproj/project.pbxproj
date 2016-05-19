@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279FF2F61CEDB3A8007A174B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2F51CEDB3A8007A174B /* main.m */; };
+		279FF2FE1CEDB3BA007A174B /* ZYXGameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2FD1CEDB3BA007A174B /* ZYXGameRole.m */; };
+		279FF3011CEDB3C3007A174B /* ZYXMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF3001CEDB3C3007A174B /* ZYXMemento.m */; };
+		279FF3041CEDB3E5007A174B /* ZYXRoleStateCareTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF3031CEDB3E5007A174B /* ZYXRoleStateCareTaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		279FF2F01CEDB3A8007A174B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		279FF2F21CEDB3A8007A174B /* ZYXMemento */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZYXMemento; sourceTree = BUILT_PRODUCTS_DIR; };
+		279FF2F51CEDB3A8007A174B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		279FF2FC1CEDB3BA007A174B /* ZYXGameRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXGameRole.h; sourceTree = "<group>"; };
+		279FF2FD1CEDB3BA007A174B /* ZYXGameRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXGameRole.m; sourceTree = "<group>"; };
+		279FF2FF1CEDB3C3007A174B /* ZYXMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXMemento.h; sourceTree = "<group>"; };
+		279FF3001CEDB3C3007A174B /* ZYXMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXMemento.m; sourceTree = "<group>"; };
+		279FF3021CEDB3E5007A174B /* ZYXRoleStateCareTaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXRoleStateCareTaker.h; sourceTree = "<group>"; };
+		279FF3031CEDB3E5007A174B /* ZYXRoleStateCareTaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXRoleStateCareTaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279FF2EF1CEDB3A8007A174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279FF2E91CEDB3A8007A174B = {
+			isa = PBXGroup;
+			children = (
+				279FF2F41CEDB3A8007A174B /* ZYXMemento */,
+				279FF2F31CEDB3A8007A174B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279FF2F31CEDB3A8007A174B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279FF2F21CEDB3A8007A174B /* ZYXMemento */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279FF2F41CEDB3A8007A174B /* ZYXMemento */ = {
+			isa = PBXGroup;
+			children = (
+				279FF2F51CEDB3A8007A174B /* main.m */,
+				279FF2FC1CEDB3BA007A174B /* ZYXGameRole.h */,
+				279FF2FD1CEDB3BA007A174B /* ZYXGameRole.m */,
+				279FF2FF1CEDB3C3007A174B /* ZYXMemento.h */,
+				279FF3001CEDB3C3007A174B /* ZYXMemento.m */,
+				279FF3021CEDB3E5007A174B /* ZYXRoleStateCareTaker.h */,
+				279FF3031CEDB3E5007A174B /* ZYXRoleStateCareTaker.m */,
+			);
+			path = ZYXMemento;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279FF2F11CEDB3A8007A174B /* ZYXMemento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279FF2F91CEDB3A8007A174B /* Build configuration list for PBXNativeTarget "ZYXMemento" */;
+			buildPhases = (
+				279FF2EE1CEDB3A8007A174B /* Sources */,
+				279FF2EF1CEDB3A8007A174B /* Frameworks */,
+				279FF2F01CEDB3A8007A174B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXMemento;
+			productName = ZYXMemento;
+			productReference = 279FF2F21CEDB3A8007A174B /* ZYXMemento */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279FF2EA1CEDB3A8007A174B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "卓酉鑫";
+				TargetAttributes = {
+					279FF2F11CEDB3A8007A174B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 279FF2ED1CEDB3A8007A174B /* Build configuration list for PBXProject "ZYXMemento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 279FF2E91CEDB3A8007A174B;
+			productRefGroup = 279FF2F31CEDB3A8007A174B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279FF2F11CEDB3A8007A174B /* ZYXMemento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279FF2EE1CEDB3A8007A174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279FF2F61CEDB3A8007A174B /* main.m in Sources */,
+				279FF3011CEDB3C3007A174B /* ZYXMemento.m in Sources */,
+				279FF3041CEDB3E5007A174B /* ZYXRoleStateCareTaker.m in Sources */,
+				279FF2FE1CEDB3BA007A174B /* ZYXGameRole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		279FF2F71CEDB3A8007A174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		279FF2F81CEDB3A8007A174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		279FF2FA1CEDB3A8007A174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279FF2FB1CEDB3A8007A174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279FF2ED1CEDB3A8007A174B /* Build configuration list for PBXProject "ZYXMemento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279FF2F71CEDB3A8007A174B /* Debug */,
+				279FF2F81CEDB3A8007A174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279FF2F91CEDB3A8007A174B /* Build configuration list for PBXNativeTarget "ZYXMemento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279FF2FA1CEDB3A8007A174B /* Debug */,
+				279FF2FB1CEDB3A8007A174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279FF2EA1CEDB3A8007A174B /* Project object */;
+}

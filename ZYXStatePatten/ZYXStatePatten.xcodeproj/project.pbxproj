@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279FF2CB1CED92D4007A174B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2CA1CED92D4007A174B /* main.m */; };
+		279FF2D31CED93AD007A174B /* ZYXState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2D21CED93AD007A174B /* ZYXState.m */; };
+		279FF2D61CED94B1007A174B /* ZYXForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2D51CED94B1007A174B /* ZYXForenoonState.m */; };
+		279FF2D91CED94CA007A174B /* ZYXWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2D81CED94CA007A174B /* ZYXWork.m */; };
+		279FF2DC1CED964D007A174B /* ZYXNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2DB1CED964D007A174B /* ZYXNoonState.m */; };
+		279FF2DF1CED96CA007A174B /* ZYXAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2DE1CED96CA007A174B /* ZYXAfternoonState.m */; };
+		279FF2E21CED9743007A174B /* ZYXEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2E11CED9743007A174B /* ZYXEveningState.m */; };
+		279FF2E51CED9799007A174B /* ZYXRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2E41CED9799007A174B /* ZYXRestState.m */; };
+		279FF2E81CED9820007A174B /* ZYXSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 279FF2E71CED9820007A174B /* ZYXSleepingState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		279FF2C51CED92D4007A174B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		279FF2C71CED92D4007A174B /* ZYXStatePatten */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZYXStatePatten; sourceTree = BUILT_PRODUCTS_DIR; };
+		279FF2CA1CED92D4007A174B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		279FF2D11CED93AD007A174B /* ZYXState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXState.h; sourceTree = "<group>"; };
+		279FF2D21CED93AD007A174B /* ZYXState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXState.m; sourceTree = "<group>"; };
+		279FF2D41CED94B1007A174B /* ZYXForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXForenoonState.h; sourceTree = "<group>"; };
+		279FF2D51CED94B1007A174B /* ZYXForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXForenoonState.m; sourceTree = "<group>"; };
+		279FF2D71CED94CA007A174B /* ZYXWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXWork.h; sourceTree = "<group>"; };
+		279FF2D81CED94CA007A174B /* ZYXWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXWork.m; sourceTree = "<group>"; };
+		279FF2DA1CED964D007A174B /* ZYXNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXNoonState.h; sourceTree = "<group>"; };
+		279FF2DB1CED964D007A174B /* ZYXNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXNoonState.m; sourceTree = "<group>"; };
+		279FF2DD1CED96CA007A174B /* ZYXAfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXAfternoonState.h; sourceTree = "<group>"; };
+		279FF2DE1CED96CA007A174B /* ZYXAfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXAfternoonState.m; sourceTree = "<group>"; };
+		279FF2E01CED9743007A174B /* ZYXEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXEveningState.h; sourceTree = "<group>"; };
+		279FF2E11CED9743007A174B /* ZYXEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXEveningState.m; sourceTree = "<group>"; };
+		279FF2E31CED9799007A174B /* ZYXRestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXRestState.h; sourceTree = "<group>"; };
+		279FF2E41CED9799007A174B /* ZYXRestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXRestState.m; sourceTree = "<group>"; };
+		279FF2E61CED9820007A174B /* ZYXSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXSleepingState.h; sourceTree = "<group>"; };
+		279FF2E71CED9820007A174B /* ZYXSleepingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXSleepingState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279FF2C41CED92D4007A174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279FF2BE1CED92D4007A174B = {
+			isa = PBXGroup;
+			children = (
+				279FF2C91CED92D4007A174B /* ZYXStatePatten */,
+				279FF2C81CED92D4007A174B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279FF2C81CED92D4007A174B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279FF2C71CED92D4007A174B /* ZYXStatePatten */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279FF2C91CED92D4007A174B /* ZYXStatePatten */ = {
+			isa = PBXGroup;
+			children = (
+				279FF2CA1CED92D4007A174B /* main.m */,
+				279FF2D11CED93AD007A174B /* ZYXState.h */,
+				279FF2D21CED93AD007A174B /* ZYXState.m */,
+				279FF2D41CED94B1007A174B /* ZYXForenoonState.h */,
+				279FF2D51CED94B1007A174B /* ZYXForenoonState.m */,
+				279FF2D71CED94CA007A174B /* ZYXWork.h */,
+				279FF2D81CED94CA007A174B /* ZYXWork.m */,
+				279FF2DA1CED964D007A174B /* ZYXNoonState.h */,
+				279FF2DB1CED964D007A174B /* ZYXNoonState.m */,
+				279FF2DD1CED96CA007A174B /* ZYXAfternoonState.h */,
+				279FF2DE1CED96CA007A174B /* ZYXAfternoonState.m */,
+				279FF2E01CED9743007A174B /* ZYXEveningState.h */,
+				279FF2E11CED9743007A174B /* ZYXEveningState.m */,
+				279FF2E31CED9799007A174B /* ZYXRestState.h */,
+				279FF2E41CED9799007A174B /* ZYXRestState.m */,
+				279FF2E61CED9820007A174B /* ZYXSleepingState.h */,
+				279FF2E71CED9820007A174B /* ZYXSleepingState.m */,
+			);
+			path = ZYXStatePatten;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279FF2C61CED92D4007A174B /* ZYXStatePatten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279FF2CE1CED92D4007A174B /* Build configuration list for PBXNativeTarget "ZYXStatePatten" */;
+			buildPhases = (
+				279FF2C31CED92D4007A174B /* Sources */,
+				279FF2C41CED92D4007A174B /* Frameworks */,
+				279FF2C51CED92D4007A174B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXStatePatten;
+			productName = ZYXStatePatten;
+			productReference = 279FF2C71CED92D4007A174B /* ZYXStatePatten */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279FF2BF1CED92D4007A174B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "卓酉鑫";
+				TargetAttributes = {
+					279FF2C61CED92D4007A174B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 279FF2C21CED92D4007A174B /* Build configuration list for PBXProject "ZYXStatePatten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 279FF2BE1CED92D4007A174B;
+			productRefGroup = 279FF2C81CED92D4007A174B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279FF2C61CED92D4007A174B /* ZYXStatePatten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279FF2C31CED92D4007A174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279FF2E21CED9743007A174B /* ZYXEveningState.m in Sources */,
+				279FF2D61CED94B1007A174B /* ZYXForenoonState.m in Sources */,
+				279FF2CB1CED92D4007A174B /* main.m in Sources */,
+				279FF2E51CED9799007A174B /* ZYXRestState.m in Sources */,
+				279FF2D91CED94CA007A174B /* ZYXWork.m in Sources */,
+				279FF2D31CED93AD007A174B /* ZYXState.m in Sources */,
+				279FF2DF1CED96CA007A174B /* ZYXAfternoonState.m in Sources */,
+				279FF2DC1CED964D007A174B /* ZYXNoonState.m in Sources */,
+				279FF2E81CED9820007A174B /* ZYXSleepingState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		279FF2CC1CED92D4007A174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		279FF2CD1CED92D4007A174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		279FF2CF1CED92D4007A174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279FF2D01CED92D4007A174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279FF2C21CED92D4007A174B /* Build configuration list for PBXProject "ZYXStatePatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279FF2CC1CED92D4007A174B /* Debug */,
+				279FF2CD1CED92D4007A174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279FF2CE1CED92D4007A174B /* Build configuration list for PBXNativeTarget "ZYXStatePatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279FF2CF1CED92D4007A174B /* Debug */,
+				279FF2D01CED92D4007A174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279FF2BF1CED92D4007A174B /* Project object */;
+}
