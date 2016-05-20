@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27261E0A1CEF087C007B640A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E091CEF087C007B640A /* main.m */; };
+		27261E121CEF088C007B640A /* ZYXImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E111CEF088C007B640A /* ZYXImplementor.m */; };
+		27261E151CEF08DA007B640A /* ZYXConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E141CEF08DA007B640A /* ZYXConcreteImplementorA.m */; };
+		27261E181CEF0916007B640A /* ZYXConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E171CEF0916007B640A /* ZYXConcreteImplementorB.m */; };
+		27261E1B1CEF0944007B640A /* ZYXAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E1A1CEF0944007B640A /* ZYXAbstraction.m */; };
+		27261E1E1CEF09D4007B640A /* ZYXRefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 27261E1D1CEF09D4007B640A /* ZYXRefinedAbstraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27261E041CEF087C007B640A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27261E061CEF087C007B640A /* ZYXBridgePatten */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZYXBridgePatten; sourceTree = BUILT_PRODUCTS_DIR; };
+		27261E091CEF087C007B640A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27261E101CEF088C007B640A /* ZYXImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXImplementor.h; sourceTree = "<group>"; };
+		27261E111CEF088C007B640A /* ZYXImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXImplementor.m; sourceTree = "<group>"; };
+		27261E131CEF08DA007B640A /* ZYXConcreteImplementorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXConcreteImplementorA.h; sourceTree = "<group>"; };
+		27261E141CEF08DA007B640A /* ZYXConcreteImplementorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXConcreteImplementorA.m; sourceTree = "<group>"; };
+		27261E161CEF0916007B640A /* ZYXConcreteImplementorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXConcreteImplementorB.h; sourceTree = "<group>"; };
+		27261E171CEF0916007B640A /* ZYXConcreteImplementorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXConcreteImplementorB.m; sourceTree = "<group>"; };
+		27261E191CEF0944007B640A /* ZYXAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXAbstraction.h; sourceTree = "<group>"; };
+		27261E1A1CEF0944007B640A /* ZYXAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXAbstraction.m; sourceTree = "<group>"; };
+		27261E1C1CEF09D4007B640A /* ZYXRefinedAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXRefinedAbstraction.h; sourceTree = "<group>"; };
+		27261E1D1CEF09D4007B640A /* ZYXRefinedAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXRefinedAbstraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27261E031CEF087C007B640A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27261DFD1CEF087C007B640A = {
+			isa = PBXGroup;
+			children = (
+				27261E081CEF087C007B640A /* ZYXBridgePatten */,
+				27261E071CEF087C007B640A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27261E071CEF087C007B640A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27261E061CEF087C007B640A /* ZYXBridgePatten */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27261E081CEF087C007B640A /* ZYXBridgePatten */ = {
+			isa = PBXGroup;
+			children = (
+				27261E091CEF087C007B640A /* main.m */,
+				27261E101CEF088C007B640A /* ZYXImplementor.h */,
+				27261E111CEF088C007B640A /* ZYXImplementor.m */,
+				27261E131CEF08DA007B640A /* ZYXConcreteImplementorA.h */,
+				27261E141CEF08DA007B640A /* ZYXConcreteImplementorA.m */,
+				27261E161CEF0916007B640A /* ZYXConcreteImplementorB.h */,
+				27261E171CEF0916007B640A /* ZYXConcreteImplementorB.m */,
+				27261E191CEF0944007B640A /* ZYXAbstraction.h */,
+				27261E1A1CEF0944007B640A /* ZYXAbstraction.m */,
+				27261E1C1CEF09D4007B640A /* ZYXRefinedAbstraction.h */,
+				27261E1D1CEF09D4007B640A /* ZYXRefinedAbstraction.m */,
+			);
+			path = ZYXBridgePatten;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27261E051CEF087C007B640A /* ZYXBridgePatten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27261E0D1CEF087C007B640A /* Build configuration list for PBXNativeTarget "ZYXBridgePatten" */;
+			buildPhases = (
+				27261E021CEF087C007B640A /* Sources */,
+				27261E031CEF087C007B640A /* Frameworks */,
+				27261E041CEF087C007B640A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXBridgePatten;
+			productName = ZYXBridgePatten;
+			productReference = 27261E061CEF087C007B640A /* ZYXBridgePatten */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27261DFE1CEF087C007B640A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "卓酉鑫";
+				TargetAttributes = {
+					27261E051CEF087C007B640A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 27261E011CEF087C007B640A /* Build configuration list for PBXProject "ZYXBridgePatten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27261DFD1CEF087C007B640A;
+			productRefGroup = 27261E071CEF087C007B640A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27261E051CEF087C007B640A /* ZYXBridgePatten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27261E021CEF087C007B640A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27261E1E1CEF09D4007B640A /* ZYXRefinedAbstraction.m in Sources */,
+				27261E181CEF0916007B640A /* ZYXConcreteImplementorB.m in Sources */,
+				27261E151CEF08DA007B640A /* ZYXConcreteImplementorA.m in Sources */,
+				27261E1B1CEF0944007B640A /* ZYXAbstraction.m in Sources */,
+				27261E121CEF088C007B640A /* ZYXImplementor.m in Sources */,
+				27261E0A1CEF087C007B640A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27261E0B1CEF087C007B640A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27261E0C1CEF087C007B640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27261E0E1CEF087C007B640A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27261E0F1CEF087C007B640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27261E011CEF087C007B640A /* Build configuration list for PBXProject "ZYXBridgePatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27261E0B1CEF087C007B640A /* Debug */,
+				27261E0C1CEF087C007B640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27261E0D1CEF087C007B640A /* Build configuration list for PBXNativeTarget "ZYXBridgePatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27261E0E1CEF087C007B640A /* Debug */,
+				27261E0F1CEF087C007B640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27261DFE1CEF087C007B640A /* Project object */;
+}
